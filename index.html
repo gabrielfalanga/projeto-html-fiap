@@ -11,24 +11,76 @@
     <title>Página Básica</title>
   </head>
   <body>
-    
     <div class="container">
       <header class="cabecalho">
-        
-        <h1 style="text-align: center;border: solid 2px #ff0000;">Minha Página</h1>
+        <h1 style="text-align: center; border: solid 2px #ff0000">Minha Página</h1>
         <!-- <h1 style="text-align: center;border: solid 2px rgb(255, 0, 0);">Minha Página</h1> -->
-
         <nav class="menu">
           <!-- ul = unordered list e só pode conter diretamente dentro de si a li (list item) ou outros uls -->
           <ul>
-            <li> <a href="./paginas/help.html"> Help </a></li>
-            <li> <a href="./paginas/contact.html"> Contact </a></li>
-            <li> <a href="./paginas/about.html"> About </a></li>
+            <li><a href="./paginas/help.html"> Help </a></li>
+            <li><a href="./paginas/about.html"> About </a></li>
+            <li><a href="#contact"> Contact </a></li>
           </ul>
         </nav>
-
       </header>
-    </div>
 
+      <section class="conteudo">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos maxime porro
+            perferendis eum voluptate nostrum error similique, officiis veniam vitae dolore quasi
+            recusandae nesciunt temporibus quo eligendi doloribus minus labore commodi dolorum.
+            Quidem in totam dignissimos, deserunt officia neque temporibus perspiciatis unde
+            reprehenderit ex animi quibusdam asperiores qui deleniti sunt quas vero molestias est
+            quam blanditiis impedit architecto, veritatis odio dolorem? Iure officia provident modi
+            quasi aut aspernatur est nam tempora unde nisi enim ducimus ratione voluptatum
+            veritatis, eius animi ipsa consectetur nesciunt odio? Voluptatum porro, inventore
+            doloribus dignissimos cupiditate suscipit officiis voluptates debitis, vitae laboriosam
+            asperiores sed in quidem?
+          </p>
+          <a href="./paginas/help.html">Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eveniet
+            consequatur placeat debitis praesentium iste impedit deserunt eum molestias ducimus.
+          </p>
+          <a href="./paginas/about.html">Mais...</a>
+        </div>
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm">Nome:</label>
+                <input type="text" name="txtNm" id="idNm" placeholder="Digite seu nome." />
+              </div>
+              <div>
+                <label for="idEmail">Email:</label>
+                <input type="text" name="txtEmail" id="idEmail" placeholder="Digite seu email." />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <!-- Emmet -- nav.menu>ul>li*3>a[href="#"]{Item - $} -->
+        <nav class="menu">
+          <ul>
+            <li><a href="https://www.fiap.com.br" target="_blank">FIAP</a></li>
+            <li><a href="">GOOGLE</a></li>
+            <li><a href="">GitHub</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
