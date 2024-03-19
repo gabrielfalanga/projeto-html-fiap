@@ -1,6 +1,6 @@
 # Meu primeiro projeto HTML
 
-#### Gabriel Falanga
+#### Prof. Alexandre
 
 `HTML básico` `Git e GitHub` `README.md`
 `Aprendendo Markdown`
