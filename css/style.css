@@ -52,3 +52,8 @@ form {
 p {
   color: #00bb00;
 }
+
+form button {
+  background-color: #0000ff88;
+  color: #fff;
+}
