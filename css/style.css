@@ -42,3 +42,9 @@ h2 {
 #conteudo {
   line-height: 1.5;
 }
+
+form {
+  border: solid 1px;
+  background-color: #909090;
+  padding: 10px;
+}
