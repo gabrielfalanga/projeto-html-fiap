@@ -57,3 +57,7 @@ form button {
   background-color: #0000ff88;
   color: #fff;
 }
+
+footer {
+  border-top: solid 2px #f00;
+}
