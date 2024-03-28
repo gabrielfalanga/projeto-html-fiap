@@ -7,3 +7,11 @@
     - Pseudo-classe
     - Pseudo-elemento
 */
+
+html {
+  background-color: #0000ff22;
+}
+
+#cabecalho {
+  background-color: #0000ff88;
+}
